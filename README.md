@@ -6,7 +6,7 @@
 
 ## Scripts
 
-### 1. `brookings_crawler.py`
+### `brookings_crawler.py`
 
 A web crawler that extracts links from the Brookings website. It visits a starting URL and follows links within the Brookings domain, up to a specified number of pages.
 
@@ -15,7 +15,7 @@ A web crawler that extracts links from the Brookings website. It visits a starti
   - Extract and follow links within the same domain.
   - Limit the number of pages visited.
 
-### 2. `wikipedia_crawler.py`
+### `wikipedia_crawler.py`
 
 A web crawler that extracts links from Wikipedia pages. It starts from a specific Wikipedia page and follows internal links, constrained by a page limit.
 
@@ -24,7 +24,7 @@ A web crawler that extracts links from Wikipedia pages. It starts from a specifi
   - Extract and follow links within Wikipedia.
   - Limit the number of pages visited.
 
-### 3. `cnn_crawler.py`
+### `cnn_crawler.py`
 
 A web crawler for CNN's website, designed to extract and follow links from a specified starting URL.
 
@@ -33,7 +33,7 @@ A web crawler for CNN's website, designed to extract and follow links from a spe
   - Extract and follow links within the CNN domain.
   - Limit the number of pages visited.
 
-### 4. `cnn_headline_monitor.py`
+### `cnn_headline_monitor.py`
 
 A headline monitoring script that periodically checks CNN's homepage for new headlines. It prints new headlines detected since the last check.
 
